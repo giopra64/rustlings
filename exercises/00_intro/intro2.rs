@@ -3,10 +3,9 @@
 // Make the code print a greeting to the world.
 //
 // Execute `rustlings hint intro2` or use the `hint` watch subcommand for a
-// hint.
+// hint. Hello {}! 1 param doit etre bindé , c'est celui après la virgule
 
-// I AM NOT DONE
 
 fn main() {
-    printline!("Hello there!")
+    println!("Hello {} there", "World")
 }
