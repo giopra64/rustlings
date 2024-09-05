@@ -1,5 +1,8 @@
-// intro1.rs
+// TODO: We sometimes encourage you to keep trying things on a given exercise
+// even after you already figured it out. If you got everything working and feel
+// ready for the next exercise, enter `n` in the terminal.
 //
+<<<<<<< HEAD
 // About this `I AM NOT DONE` thing:
 // We sometimes encourage you to keep trying things on a given exercise, even
 // after you already figured it out. If you got everything working and feel
@@ -14,10 +17,13 @@
 // hint.
 
 
+=======
+// The exercise file will be reloaded when you change one of the lines below!
+// Try adding a new `println!` and check the updated output in the terminal.
+>>>>>>> 2d0860fe1bd0aef512313617d8a26e9f118d2cd2
 
 fn main() {
-    println!("Hello and");
-    println!(r#"       welcome to...                      "#);
+    println!(r#"       Welcome to...                      "#);
     println!(r#"                 _   _ _                  "#);
     println!(r#"  _ __ _   _ ___| |_| (_)_ __   __ _ ___  "#);
     println!(r#" | '__| | | / __| __| | | '_ \ / _` / __| "#);
@@ -29,6 +35,7 @@ fn main() {
     println!("or logic error. The central concept behind Rustlings is to fix these errors and");
     println!("solve the exercises. Good luck!");
     println!();
+<<<<<<< HEAD
     println!("The source for this exercise is in `exercises/00_intro/intro1.rs`. Have a look!");
     println!(
         "Going forward, the source of the exercises will always be in the success/failure output."
@@ -39,4 +46,9 @@ fn main() {
     );
     println!("up, and then run `rustlings lsp` before continuing.");
     println!("test giogio64");
+=======
+    println!("The file of this exercise is `exercises/00_intro/intro1.rs`. Have a look!");
+    println!("The current exercise path will be always shown under the progress bar.");
+    println!("You can click on the path to open the exercise file in your editor.");
+>>>>>>> 2d0860fe1bd0aef512313617d8a26e9f118d2cd2
 }
